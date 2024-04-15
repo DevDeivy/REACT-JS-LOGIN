@@ -1,0 +1,161 @@
+.box-login{
+    position: relative;
+    background-color: transparent;
+    backdrop-filter: blur(6px);
+    border: 2px solid rgba(255,255,255, .8);
+    height: 450px;
+    width: 450px;
+    color: #fff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    padding: 40px ;
+}
+
+.container.register{
+    position: absolute;
+    left: 450px;
+}
+
+
+.box-login.active .container.login{
+    position: relative;
+    right: 450px;
+    overflow: hidden;
+}
+
+
+.box-login.active .container.register{
+    position: absolute;
+    left: 0px;
+}
+
+.box-login.active {
+    height: 480px;
+    transition: 0.5s;
+    overflow: hidden; 
+}
+
+.box-login{
+    overflow: hidden;
+    transition: 0.5s;
+    height: 450px;
+}
+
+.social-icons{
+    position: relative;
+    top: 20px;
+    left: 130px;
+}
+
+.btn-icon1{
+    width: 35px;
+    height: 25px;
+    border: 2px solid white;
+    border-radius: 20%;
+    position: relative;
+    right: 35px;
+    margin: 4px;
+    color: #fff;
+}
+
+.btn-icon1:hover{
+    border: 2px solid rgb(202, 198, 198);
+}
+
+.container h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+.container .add-information{
+    position: relative;
+    width: 100%;
+    margin: 30px 0;
+    height: 40px;
+}
+
+.add-information input{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border-style: none;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 10px 28px 10px 10px;
+    color: #fff;
+}
+
+.add-information input::placeholder{
+    color: #fff;
+    font-size: 15px;
+}
+
+.btn-icon2{
+    position: absolute;
+    right: 8px;
+    top: 10px;
+}
+
+
+.forgot-password-selecction {
+    margin: 20px 0;
+}
+
+.forgot-password-selecction input {
+    margin: 0 5px;
+}
+
+.forgot-password-selecction a{
+    position: relative;
+    left: 60px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.forgot-password-selecction a:hover{
+    text-decoration: underline;
+}
+
+.btn-login{
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 1s;
+}
+
+.btn-login:hover{
+    font-size: 16.8px;
+    box-shadow: 0 0 15px white;
+}
+
+.user-register{
+    position: relative;
+    text-align: center;
+    top: 15px;
+}
+
+.user-register a{
+    margin: 0 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.user-register a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* soon with media queries */
